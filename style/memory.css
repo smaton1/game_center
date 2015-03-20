@@ -34,3 +34,23 @@ div#memory_board > div{
   cursor: pointer;
   text-align: center;
 }
+
+@media screen and (max-width: 640px){
+  div#memory_board{
+    width: 80%;
+    
+  }
+
+  div#memory_board > div{
+    width: 10%;
+    height: 20%;
+    margin: 2%;
+    padding: 1%;
+  }
+}
+
+
+
+
+
+

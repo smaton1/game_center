@@ -47,7 +47,7 @@ function memoryFlipTile(tile,val){
         memory_tile_ids = [];
         // Check to see if the whole board has been cleared
         if(tiles_flipped == memory_array.length) {
-          alert("Complete");
+          alert("Well played! Click ok to reset the board!");
           document.getElementById('memory_board').innerHTML = "";
           newBoard();
         }
