@@ -20,6 +20,7 @@ div#memory_board{
   height: 540px;
   padding: 24px;
   margin: 0px auto;
+  margin-top: 10px;
 }
 
 div#memory_board > div{
@@ -37,15 +38,16 @@ div#memory_board > div{
 
 @media screen and (max-width: 640px){
   div#memory_board{
-    width: 80%;
+    width: 100%;
+    padding: 0;
     
   }
 
   div#memory_board > div{
-    width: 10%;
+    width: 14%;
     height: 20%;
-    margin: 2%;
-    padding: 1%;
+    margin: 1%;
+    padding: 0%;
   }
 }
 
