@@ -17,6 +17,21 @@ header{
   padding: 0% 10% 0% 10%;
 }
 
+#home_button{
+  float: left;
+  padding-left: 5%;
+}
+
+#game_header{
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+#game_header li{
+  display: inline-block;
+ 
+}
+
 a{
   text-decoration: none;
   color: inherit;

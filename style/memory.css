@@ -1,17 +1,6 @@
-#memory_header{
-  list-style: none;
-  padding: 0;
-  margin: 0;
-}
-#memory_header li{
-  display: inline-block;
- 
-}
 
-#home_button{
-  float: left;
-  padding-left: 5%;
-}
+
+
 
 div#memory_board{
   background: #CCC;
